@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+.main{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+
+  width: 90%;
+  margin: auto;
+  
+  margin-top: 100px;
+}
+.card{
+  border:1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}
 
 .App-logo {
   height: 40vmin;
